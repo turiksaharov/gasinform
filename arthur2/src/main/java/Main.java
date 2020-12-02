@@ -24,7 +24,6 @@ public class Main {
                 .queryParam("lang", "ru")
                 .queryParam("appid", appidToken)
                 .get("/weather")
-//                .when()
                 .then()
                 .statusCode(200)
                 .extract()
